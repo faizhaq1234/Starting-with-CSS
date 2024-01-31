@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /*h1{
+            background-color: rgb(147, 218, 147);
+        }
+
+        .Faiz-Haque{
+            background-color: rgb(148, 148, 199);
+            color: aquamarine;
+        }
+        #Hello{
+            background-color:rgb(237, 75, 102);
+            color: rgb(189, 145, 231);
+        }*/
+        a{
+            background-color: rgb(120, 145, 87);
+            color: rgb(119, 210, 210);
+
+        }
+
+        a[target]{
+            background-color: rgb(186, 168, 115);
+            color: white;
+        }
+
+        /* Grouping elements */
+
+        h1, h2 ,h3{
+            background-color: rgb(85, 141, 85);
+            color: rgb(124, 59, 59);
+        }
+
+        ul li{
+            background-color:rgb(111, 161, 100);
+            color: rgb(136, 84, 77);
+            /* display: flex;
+            justify-content: center;
+            margin: 0 50px; */
+        }
+        li{
+            display: flex;
+            justify-content: center;
+            margin: 0px 50px;
+        }
+
+       
+
+        img ~ p{
+            background-color: rgb(78, 159, 78);
+            color: white;
+        }
+
+        .item1:hover{
+
+            background-color: #f59905;
+            color: #000;
+            font-size: 30px;
+
+        }
+
+        .item2:hover{
+            background-color: #b7f903;
+            color: #000;
+            font-size: 30px;
+        }
+
+        .item3:hover{
+            background-color: #079ffe;
+            color: #000;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+   <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quas.</h1>
+    <h2 class="Faiz-Haque">Lorem ipsum dolor sit amet.</h2>
+    <h3 id="Hello">Lorem ipsum dolor sit amet consectetur adipisicing.</h3> --> ;
+
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, atque.</h1>
+    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, rem!</h2>
+    <h3>Lorem, ipsum dolor.</h3>
+
+    <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>contact us</li>
+        
+    </ul>
+
+   <a class="item1" href="www.google.com">Google</a>
+   <a class="item2" href="www.facebook.com">Facebook</a>
+   <a class="item 3" href="www.twitter.com">Twitter</a>
+
+    <div>
+        <img src="#" alt="">\
+        <p>Change me</p>
+    </div>
+
+    <a href="http://pwskils.com">Pw SKills</a> 
+    <a target="_blank" href="http://ineuron.com">I neuron</a>
+</body>
+</html>

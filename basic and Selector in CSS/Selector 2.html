@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector 2</title>
+    <style>
+       /* h1:hover{
+            background-color: rgb(190, 31, 31);
+        }*/
+        h2:hover{
+            background-color: green;
+        }
+
+        button:focus{
+            background-color:rgb(209, 94, 94);
+        }
+     
+
+        div:first-child{
+            background-color: #0dd224;
+        }
+        div:last-child{
+            background-color: #0e8bb5;
+        }
+
+        /* Special */
+
+        h1::after{
+            content: "After!";
+            color: red;
+        }
+
+        h1::before{
+            content: "Before!";
+            color: rgb(14, 185, 26);
+        }
+
+        p::first-line{
+            background-color: #d8920e;
+            font-size: 150px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, dicta?</h2>
+
+    <input type="Checkbox">
+
+    <button>submit</button>
+
+    <p>Hello There!</p>
+     <label for="email">Mail id</label>
+     <input type="email" placeholder="Email" id="mailid
+     " required> <br>
+     <label for="password">Password</label>
+     <input type="pass" placeholder="Password" id="password" name="pass" required>
+
+     <div>
+        <div>Home</div>
+        <div>Services</div>
+        <div>Contact Me</div>
+     </div>
+    
+
+     <h1>psudo system</h1>
+     <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, nisi?</h2>
+
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptatibus provident incidunt quaerat quia doloremque aspernatur.</p>
+
+    
+
+    
+</body>
+</html>
